@@ -51,8 +51,6 @@
   </Layout>
   <SubComponents>
     <Container class="javax.swing.JPanel" name="esemenyek">
-      <Properties>
-      </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -93,8 +91,6 @@
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="blokk">
-      <Properties>
-      </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -186,9 +182,11 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="zOssz" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="zOsszEredmeny" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="zOssz" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                   <Component id="kAsztal" min="-2" max="-2" attributes="0"/>
